@@ -56,6 +56,7 @@ def all_holidays_with_bbq(holiday_hash)
       bbq_holidays << holiday if supplies.any? {|supply| supply == "BBQ"}
     end
   end
+  bbq_holidays
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
 
